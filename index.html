@@ -52,7 +52,7 @@
   header { background: var(--sun); border-bottom: var(--line); position: relative; overflow: hidden; }
   .hero { min-height: min(92vh, 760px); display: grid; align-content: center; justify-items: center; text-align: center; padding: 120px 20px 110px; position: relative; }
   .date {
-    font: 900 clamp(110px, 25vw, 280px)/.82 "Unbounded", sans-serif; letter-spacing: -.06em; margin: 0;
+    font: 900 clamp(84px, 19vw, 230px)/.82 "Unbounded", sans-serif; letter-spacing: -.06em; margin: 0;
     color: var(--cobalt); -webkit-text-stroke: 3px var(--ink); paint-order: stroke fill;
     text-shadow: 8px 8px 0 var(--ink); position: relative; z-index: 1;
   }
@@ -158,6 +158,9 @@
   @media (max-width: 1400px) { .s-ears, .s-eco { display: none; } }
   @media (max-width: 1000px) {
     .s-speaker, .s-hug { display: none; }
+    .hero { padding: 140px 20px 240px; }
+    .s-kid figcaption, .s-xmas figcaption { display: none; }
+    footer p { max-width: 55%; }
     .s-heart { width: 110px; left: 2%; }
     .s-snow { width: 90px; right: 4%; }
     .s-kid { width: 105px; left: 3%; }
